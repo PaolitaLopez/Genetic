@@ -7,6 +7,7 @@ import { ActividadesComponent } from './actividades/actividades.component';
 import { FuncionesComponent } from './funciones/funciones.component';
 import { RouterModule } from '@angular/router';
 import { InicioComponent } from './inicio/inicio.component';
+import { EquipoComponent } from './equipo/equipo.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InicioComponent } from './inicio/inicio.component';
     ContenidosComponent,
     ActividadesComponent,
     FuncionesComponent,
-    InicioComponent
+    InicioComponent,
+    EquipoComponent
   ],
 
 
@@ -25,6 +27,7 @@ import { InicioComponent } from './inicio/inicio.component';
       { path: "contenidos", component: ContenidosComponent },
       { path: "actividades", component: ActividadesComponent },
       { path: "funciones", component: FuncionesComponent },
+      { path: "equipo", component: EquipoComponent },
     ])
   ],
 
